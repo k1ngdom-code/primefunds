@@ -37,6 +37,7 @@ margin-bottom: 40px;
 }
 .nav{
     margin-bottom: 70px;
+    z-index:1
 }
 h3{
     font-size: 35px;
@@ -352,6 +353,7 @@ input{
     scale:00.9
 }
 }
+
 
 
 
