@@ -303,7 +303,7 @@ transform: translate(-200px);
         scale: 0.9;
     }
     .glass{
-        margin-top: -520px;
+        margin-top: -540px;
         transform: translate(-120px);
 visibility:visible
     }
@@ -354,6 +354,7 @@ input{
     scale:00.9
 }
 }
+
 
 
 
