@@ -323,7 +323,7 @@ p2{
 }
 #options li{
     margin-top: 0px;
-    width: 350px;
+    width: 330px;
 border-radius: 10px;
 font-size: 16px;
 }
@@ -331,7 +331,7 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: -20px;
+    margin-left: -30px;
     padding-bottom: 20px;
 }
 input{
@@ -346,3 +346,4 @@ input{
     scale:00.9
 }
 }
+
