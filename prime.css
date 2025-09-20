@@ -303,7 +303,7 @@ transform: translate(-200px);
         scale: 0.9;
     }
     .glass{
-        margin-top: -590px;
+        margin-top: -520px;
         transform: translate(-120px);
 visibility:visible
     }
@@ -347,12 +347,14 @@ input{
     font-size:17px
 }
 #register{
-    scale:0.9
+    scale:0.9;
+    margin-right:-20px
 }
 #lang{
     scale:00.9
 }
 }
+
 
 
 
