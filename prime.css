@@ -320,7 +320,13 @@ transform: translate(-120px);
 
 p2{
     margin-top: 20px;
+    font-family: Manrope;
+    margin-bottom:20px;
+    color:white;
 }
+    p2 a{
+        color:var(--maincolor)
+    }
 #options li{
     margin-top: 0px;
     width: 330px;
@@ -335,8 +341,8 @@ font-size: 16px;
     padding-bottom: 20px;
 }
 input{
-    width: 300px;
-    height: 40px;
+    width: 320px;
+    height: 35px;
     font-size:17px
 }
 #register{
@@ -346,5 +352,6 @@ input{
     scale:00.9
 }
 }
+
 
 
