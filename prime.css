@@ -33,6 +33,7 @@ margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .nav{
     margin-bottom: 70px;
@@ -42,6 +43,8 @@ h3{
     font-family:Lato;
     color: blueviolet;
     font-weight: 600;
+   
+
 }
 .glass{
     width: 70px;
@@ -58,7 +61,7 @@ backdrop-filter: blur(10px);
 transform: translate(-150px);
 transition: all 0.3s ease;
 animation: move 10s infinite;
-
+display: flex;
 }
 
 @keyframes move {
@@ -94,6 +97,7 @@ input{
     border: 1px solid grey;
     background-color: white;
     margin-bottom: 20px;
+    position:relative
 }
 input:focus{
     outline: none;
@@ -254,6 +258,7 @@ h3{
     width: 80%;
     margin-top: 50px;
     height: 80vh;
+    scale:0.95
 }
 html, body{
     object-fit: cover;
@@ -264,6 +269,7 @@ html, body{
 .glass{
     transform: translate(-200px);
     width: 100px;
+    visibility: hidden;
 }
 @keyframes move {
     0%{
@@ -280,15 +286,20 @@ transform: translate(-200px);
 
 @media (max-width:480px){
     h3{
-        font-size: 30px;
-        margin-top: 30px;
+        font-size: 25px;
+        margin-top: 100px;
+    }
+    p1{
+        font-size: 17px;
     }
     .welcomebox{
         width:90%;
-        height: 85vh;
+        height: 90vh;
+        margin-top: 0px;
     }
     #signin{
         margin-top: 30px;
+        scale: 0.9;
     }
     .glass{
         margin-top: -640px;
@@ -311,14 +322,27 @@ p2{
     margin-top: 20px;
 }
 #options li{
-    margin-top: 20px;
+    margin-top: 0px;
     width: 350px;
-
+border-radius: 10px;
+font-size: 16px;
 }
 #options{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: -20px;
+    padding-bottom: 20px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    font-size:17px
+}
+#register{
+    scale:0.9
+}
+#lang{
+    scale:00.9
 }
 }
